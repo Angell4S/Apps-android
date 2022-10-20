@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "307583806974",
+    "firebase_url": "https://logogleface.firebaseio.com",
+    "project_id": "logogleface",
+    "storage_bucket": "logogleface.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307583806974:android:77671ee19086471b1ba4af",
+        "android_client_info": {
+          "package_name": "com.clase.facegologin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307583806974-uom6vb2sgmg7neqdu2kc25r8eqqvo7pr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgwq7_ZkofGaHm6uPou89ZSVksX4Hsfyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307583806974-uom6vb2sgmg7neqdu2kc25r8eqqvo7pr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

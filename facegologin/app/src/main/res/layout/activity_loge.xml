@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".logeActivity"
+    android:background="@color/colorceleste">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo2"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/idcorreo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/borde"
+        android:drawableLeft="@drawable/ic_user"
+        android:hint="  Correo"
+        android:padding="10dp"
+        android:drawableTint="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <EditText
+        android:id="@+id/idcontra"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/borde"
+        android:drawableLeft="@drawable/ic_pass"
+        android:hint="  Contraseña"
+        android:drawableTint="@color/colorPrimaryDark"
+        android:padding="10dp"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <Button
+        android:id="@+id/idingresar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Iniciar Sesion"
+        android:textColor="#fff"
+        android:background="@drawable/botonredondeado" />
+
+    <TextView
+        android:id="@+id/iralogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="460dp"
+        android:text="No tengo cuenta"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:onClick="SendToRegister"
+        />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/googlelogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        />
+
+
+
+
+
+
+
+</RelativeLayout>

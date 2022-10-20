@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:id="@+id/action_containeranim"
+        android:paddingBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:background="@drawable/card_gb"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:id="@+id/txvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Simpple Text"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/title_text_color"
+            />
+
+        <TextView
+            android:id="@+id/txv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textColor="#919191"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="22dp"
+            android:text="Simpple Text" />
+
+        <TextView
+            android:id="@+id/txv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="e 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="50dp"
+            android:lineSpacingExtra="8dp"
+            android:textColor="#919191"
+            />
+
+    </RelativeLayout>
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/imgUser"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"/>
+
+
+
+</RelativeLayout>

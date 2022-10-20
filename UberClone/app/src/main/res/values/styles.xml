@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.ActionBar">
+
+        <!--Cambiar el color de la flecha para ir atras del toolbar -->
+        <item name="colorControlNormal">@color/colorWhite</item>
+
+        <!--Cambiar el color del titulo del toolbar-->
+        <item name="titleTextColor">@color/colorWhite</item>
+
+
+    </style>
+
+
+</resources>

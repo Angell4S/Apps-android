@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo1"
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/whats"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="120dp"
+        />
+    <EditText
+        android:id="@+id/edtUsu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="250dp"
+        android:hint="Usuario"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        />
+    <EditText
+        android:id="@+id/edtContra"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="350dp"
+        android:hint="Contraseña"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="390dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="450dp"
+        android:text="Ingresar"
+        android:background="@drawable/redondeado"
+        android:layout_marginLeft="10dp"
+        />
+
+
+</RelativeLayout>

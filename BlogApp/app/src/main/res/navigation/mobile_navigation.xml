@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navi_home">
+
+    <fragment
+        android:id="@+id/navi_home"
+        android:name="com.clase.blogapp.Fragments.HomeFragment"
+        android:label="menu_home"
+        tools:layout="@layout/fragment_home2">
+
+
+        <action
+            android:id="@+id/action_nav_home_to_nav_profile"
+            app:destination="@id/navi_profile" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navi_profile"
+        android:name="com.clase.blogapp.Fragments.ProfileFragment"
+        android:label="menu_profile"
+        tools:layout="@layout/fragment_profile" >
+
+        <action
+            android:id="@+id/action_nav_profile_to_nav_settings"
+            app:destination="@id/navi_settings" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navi_settings"
+        android:name="com.clase.blogapp.Fragments.SettingsFragment"
+        android:label="menu_settings"
+        tools:layout="@layout/fragment_settings" >
+
+    </fragment>
+</navigation>

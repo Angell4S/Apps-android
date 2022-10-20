@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    >
+
+    <ImageView
+        android:id="@+id/row_postimg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"/>
+
+
+    <ImageView
+        android:id="@+id/sombreado"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/black_gradient"
+        android:layout_marginTop="150dp"/>
+
+
+    <TextView
+        android:id="@+id/row_posttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/sombreado"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Titutlo"
+        android:textColor="#fff"
+        android:textSize="15dp" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/row_post_userimg"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/sombreado"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="0dp"
+        android:src="@mipmap/ic_launcher" />
+
+
+</RelativeLayout>

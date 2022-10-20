@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.RegisterActivity">
+
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/reguserimg"
+        android:scaleType="centerCrop"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="170dp"
+        android:src="@drawable/ic_addfoto"
+        app:civ_border_width="0dp"
+        />
+
+    <EditText
+        android:id="@+id/edtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/reg_edt_style"
+        />
+    <EditText
+        android:id="@+id/edtmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/reg_edt_style"
+        />
+    <EditText
+        android:id="@+id/edtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/reg_edt_style"
+        />
+    <EditText
+        android:id="@+id/edtpassconf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirma contraseña"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/reg_edt_style"
+        />
+
+    <Button
+        android:id="@+id/regBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginEnd="131dp"
+        android:gravity="center"
+        android:text="Registrar"
+        android:background="@drawable/reg_btn_style"
+        android:textColor="#fff"/>
+
+    <ProgressBar
+        android:id="@+id/regprogressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/regBtn"
+        android:layout_alignTop="@+id/regBtn"
+        android:layout_alignEnd="@+id/regBtn"
+        android:layout_alignBottom="@+id/regBtn"
+         />
+
+    <TextView
+        android:id="@+id/irlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ya tengo cuenta"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="190dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/pop_userimg"
+        android:layout_width="48dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_addfoto"
+        android:layout_marginTop="5dp"
+        android:background="#fff"
+
+        />
+
+    
+    <EditText
+        android:id="@+id/titlepop"
+        android:layout_width="432dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/popup_edt_style"/>
+    <EditText
+        android:id="@+id/descripop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="descripcion"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/popup_edt_style"/>
+
+    <ImageView
+        android:id="@+id/popup_postimg"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:src="@drawable/ses"
+        android:layout_marginTop="110dp"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+    android:id="@+id/popup_add"
+    android:layout_width="56dp"
+    android:layout_height="56dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginStart="210dp"
+    android:layout_marginLeft="210dp"
+    android:layout_marginTop="300dp"
+    android:layout_marginEnd="210dp"
+    android:background="@drawable/circle_gb"
+    android:padding="11dp"
+    android:src="@drawable/ic_pencil" />
+
+    <ProgressBar
+        android:padding="4dp"
+        android:id="@+id/popup_progress"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/popup_add"
+        android:layout_alignTop="@+id/popup_add"
+        android:layout_alignEnd="@+id/popup_add"
+        android:layout_alignBottom="@+id/popup_add"
+        android:visibility="invisible"
+        android:background="@drawable/circle_gb"/>
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+</RelativeLayout>
